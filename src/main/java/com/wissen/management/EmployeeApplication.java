@@ -109,7 +109,7 @@ public class EmployeeApplication {
 		name = br.readLine();
 		System.out.println("Enter Employee salary");
 		salary= validInteger();
-		System.out.println("Enter Age");
+		System.out.println("Enter Employee Age");
 		age= validInteger();
 		System.out.println("Enter Designation");
 		desig = br.readLine();
