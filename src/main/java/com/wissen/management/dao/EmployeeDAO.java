@@ -133,7 +133,7 @@ public class EmployeeDAO {
 				System.err.println("Message: " + e.getMessage());
 				Throwable t = ex.getCause();
 				while (t != null) {
-					System.out.println("Cause: " + t);
+					System.out.println("Cause:" + t);
 					t = t.getCause();
 				}
 			}
