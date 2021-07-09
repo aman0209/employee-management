@@ -105,7 +105,7 @@ public class EmployeeApplication {
 		Employee employee;
 		System.out.println("Enter Employee Id");
 		id= validInteger();
-		System.out.println("Enter Name");
+		System.out.println("Enter Employee Name");
 		name = br.readLine();
 		System.out.println("Enter salary");
 		salary= validInteger();
