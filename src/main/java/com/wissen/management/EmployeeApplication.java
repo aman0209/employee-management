@@ -103,7 +103,7 @@ public class EmployeeApplication {
 		String name;
 		String desig;
 		Employee employee;
-		System.out.println("Enter Id");
+		System.out.println("Enter Employee Id");
 		id= validInteger();
 		System.out.println("Enter Name");
 		name = br.readLine();
