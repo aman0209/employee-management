@@ -90,7 +90,7 @@ public class EmployeeApplication {
 		if(employee != null) {
 			employee.setSalary(salary);
 			employeeDAO.updateEmployee(employee);
-			System.out.println("Salar successfully");
+			System.out.println("Salary updated successfully");
 		} else {
 			System.out.println("No employee found with id: " + id);
 		}
