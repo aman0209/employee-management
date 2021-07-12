@@ -111,7 +111,7 @@ public class EmployeeApplication {
 		salary= validInteger();
 		System.out.println("Enter Employee Age");
 		age= validInteger();
-		System.out.println("Enter Designation");
+		System.out.println("Enter Employee Designation");
 		desig = br.readLine();
 		employee = new Employee(id, name, salary, age, desig);
 		try {
